@@ -1,7 +1,4 @@
---[[
-    Aquafield Hub - Complete Edition (Visuals, Combat, Farm & Settings)
-    Compatible con Delta Executor / Mobile & PC
---]]
+
 
 local Aquafield = loadstring(game:HttpGet(
     "https://raw.githubusercontent.com/CICAGLISAQ/Aquafield-Library/refs/heads/main/Aquafield"
@@ -101,14 +98,14 @@ end
 -- CREACIÓN DE VENTANA AQUAFIELD
 -- ================================================================
 local Window = Aquafield:CreateWindow({
-    Name = "AQUAFIELD HUB",
+    Name = "BQM AUTO FARM ETC",
     Icon = 0,
     LoadingTitle = "Aquafield Farm & Combat",
     LoadingSubtitle = "Delta Executor Edition",
     Theme = "Ocean",
     ConfigurationSaving = {
         Enabled = false,
-        FolderName = "AquafieldHub",
+        FolderName = "AUTOFARM",
         FileName = "Config",
     },
     KeySystem = false,
@@ -1397,7 +1394,7 @@ SettingsTab:CreateButton({
 
 -- Notificación de inicio
 Aquafield:Notify({
-    Title = "Aquafield Hub Listo",
-    Content = "Visuals, Combat y Farm cargados con cada botón funcional!",
+    Title = "Auto farm Hub Listo",
+    Content = "Visuals, Combat y Farm Xd!",
     Duration = 5,
 })
